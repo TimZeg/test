@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+td:hover {
+  background-color: #ddd;
+}
+
+td.number {
+  color: #333;
+}
+
+/*td.number:hover {*/
+/*  color: red;*/
+/*}*/
+
+.number{
+  cursor: pointer;
+}
